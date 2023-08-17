@@ -2,7 +2,6 @@ import React from "react";
 import "./Hero.scss";
 
 const Hero = () => {
-  const images = [];
   return (
     <div className="heroContainer">
       <div className="heroWrapper">
