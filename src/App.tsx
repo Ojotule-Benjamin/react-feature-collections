@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import Navbar from "./components/navbar/Navbar";
+import Hero from "./components/hero/Hero";
 
 function App() {
   return (
     <div className="App">
-      <h3>Welcome to react feature collections</h3>
+      <Navbar />
+      <Hero />
     </div>
   );
 }

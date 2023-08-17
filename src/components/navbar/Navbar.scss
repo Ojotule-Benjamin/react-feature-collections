@@ -1,0 +1,33 @@
+.navbar {
+  width: 100vw;
+  height: 80px;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  // position: fixed;
+  // top: 0;
+
+  .navbarWrapper {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+
+    .logo {
+      cursor: pointer;
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 30px;
+
+      h4 {
+        cursor: pointer;
+      }
+    }
+  }
+}
